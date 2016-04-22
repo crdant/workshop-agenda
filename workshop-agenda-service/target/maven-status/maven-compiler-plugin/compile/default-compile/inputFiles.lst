@@ -1,0 +1,5 @@
+/Users/cdecelles/workspaces/demo/workshop-agenda/workshop-agenda/workshop-agenda-service/src/main/java/io/spring/pivotal/workshop/service/domain/Workshop.java
+/Users/cdecelles/workspaces/demo/workshop-agenda/workshop-agenda/workshop-agenda-service/src/main/java/io/spring/pivotal/workshop/service/Application.java
+/Users/cdecelles/workspaces/demo/workshop-agenda/workshop-agenda/workshop-agenda-service/src/main/java/io/spring/pivotal/workshop/service/controllers/WorkshopServiceController.java
+/Users/cdecelles/workspaces/demo/workshop-agenda/workshop-agenda/workshop-agenda-service/src/main/java/io/spring/pivotal/workshop/service/domain/Content.java
+/Users/cdecelles/workspaces/demo/workshop-agenda/workshop-agenda/workshop-agenda-service/src/main/java/io/spring/pivotal/workshop/service/repositories/ContentRepository.java
