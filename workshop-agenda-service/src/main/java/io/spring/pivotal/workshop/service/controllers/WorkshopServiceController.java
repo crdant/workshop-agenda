@@ -113,24 +113,32 @@ public class WorkshopServiceController {
 					
 					System.out.println("#### content = " + content);
 					
-					
-					if (StringUtils.isEmpty(topic.getTitle())) {
-						topic.setTitle(content.getTitle());
-					}
-					
-					if (StringUtils.isEmpty(topic.getDescription())) {
-						topic.setDescription(content.getDescription());
-					}
-					
-					if (StringUtils.isEmpty(topic.getSlideURL())) {
-						if (!StringUtils.isEmpty(content.getSlideURL())) {
-							topic.setSlideURL(workshop.getContentURL() + "/" + content.getSlideURL());
+					if (content == null) {
+						for (String s1 : enablementHash.keySet())
+						{
+							System.out.println("^^^^^ key from enablement =" + s1 + "^^^^^match=" + topic.getId() +"^^^" );
 						}
 					}
 					
-					if (StringUtils.isEmpty(topic.getLabURL())) {
-						if (!StringUtils.isEmpty(content.getLabURL())) {
-							topic.setLabURL(workshop.getContentURL() + "/" + content.getLabURL());
+					if (content != null) {
+						if (StringUtils.isEmpty(topic.getTitle())) {
+							topic.setTitle(content.getTitle());
+						}
+						
+						if (StringUtils.isEmpty(topic.getDescription())) {
+							topic.setDescription(content.getDescription());
+						}
+						
+						if (StringUtils.isEmpty(topic.getSlideURL())) {
+							if (!StringUtils.isEmpty(content.getSlideURL())) {
+								topic.setSlideURL(workshop.getContentURL() + "/" + content.getSlideURL());
+							}
+						}
+						
+						if (StringUtils.isEmpty(topic.getLabURL())) {
+							if (!StringUtils.isEmpty(content.getLabURL())) {
+								topic.setLabURL(workshop.getContentURL() + "/" + content.getLabURL());
+							}
 						}
 					}
 				}

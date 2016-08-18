@@ -3,13 +3,13 @@ instances: 1
 memory: 1024M
 applications:
 - name: workshop-agenda-service
-  host: workshop-agenda-service-cjd
+  host: workshop-agenda-service
   path: workshop-agenda-service/target/workshop-agenda-service-0.0.1-SNAPSHOT.jar
   services:
   - config-server
   - service-registry
 - name: workshop-agenda-ui
-  host: workshop-agenda-ui-cjd
+  host: workshop-agenda-ui
   path: workshop-agenda-ui/target/workshop-agenda-ui-0.0.1-SNAPSHOT.jar
   services:
   - config-server
@@ -17,4 +17,4 @@ applications:
   - circuit-breaker
 env:
   SPRING_PROFILES_ACTIVE: pcf
-  CF_TARGET: https://api.run.pivotal.io
+  CF_TARGET: https://api.pcf9.cloud.fe.pivotal.io

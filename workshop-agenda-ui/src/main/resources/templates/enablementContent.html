@@ -24,7 +24,7 @@
         <th>Slide URL</th>
         <th>Lab URL</th>
   	</tr>
-   	<tr th:each="content,iterationStatus  : ${contents}">
+   	<tr th:each="content,iterationStatus  : ${enablementContent}">
       	<td th:text="${iterationStatus.count}">1</td>
         <td th:text="${content.courseID}">001</td>
         <td th:text="${content.title}">title</td>
