@@ -2,7 +2,7 @@
 platform: linux
 
 resources:
-   - name: time
+  - name: time
     type: time
     source:
       interval: 60s
