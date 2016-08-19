@@ -13,12 +13,7 @@ image_resource:
     tag: latest
 
 inputs:
-  - name: time
-
-
-# outputs:
-#   - name: jar-file-renamed
-#     path: jar-file-renamed
+- name: time
 
 run:
   path: echo
