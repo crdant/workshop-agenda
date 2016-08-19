@@ -3,7 +3,8 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: {repository: debian-oraclejdk8-maven-cmake-gcc-gnueabihf, tag: "latest"}
+    repository: ruby
+    tag: 2.3.0
 
 inputs:
 - name: git-repo
