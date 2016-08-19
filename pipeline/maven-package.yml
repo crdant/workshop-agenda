@@ -4,15 +4,14 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: ruby
-    tag: 2.3.0
+    repository: maven
+    tag: latest
 
 inputs:
 - name: git-repo
 
 outputs:
 - name: jar-file
-
 
 run:
   path: mvn
