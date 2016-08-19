@@ -1,18 +1,19 @@
----
-resources:
-  - name: time
-    type: time
-    source: {interval: 60s}
-
-image_resource:
-  type: docker-image
-  source:
+--- 
+image_resource: 
+  source: 
     repository: alpine
     tag: latest
-
-inputs:
-  - name: time
-
-run:
+  type: docker-image
+inputs: 
+  - 
+    name: time
+resources: 
+  - 
+    name: time
+    source: 
+      interval: 60s
+    type: time
+run: 
+  args: 
+    - time
   path: echo
-  args: [ time ]
