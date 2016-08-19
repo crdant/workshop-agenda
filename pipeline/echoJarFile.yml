@@ -1,11 +1,10 @@
-
+---
 platform: linux
 
 resources:
-  - name: time
-    type: time
-    source:
-      interval: 60s
+- name: time
+  type: time
+  source: {interval: 60s}
 
 image_resource:
   type: docker-image
