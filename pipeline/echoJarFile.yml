@@ -1,10 +1,8 @@
 ---
-platform: linux
-
 resources:
-- name: time
-  type: time
-  source: {interval: 60s}
+  - name: time
+    type: time
+    source: {interval: 60s}
 
 image_resource:
   type: docker-image
@@ -13,7 +11,7 @@ image_resource:
     tag: latest
 
 inputs:
-- name: time
+  - name: time
 
 run:
   path: echo
