@@ -1,0 +1,16 @@
+---
+platform: linux
+
+image_resource:
+image: "docker:///maven#latest"
+
+inputs:
+- name: git-repo
+
+outputs:
+- name: jar-file
+
+
+run:
+  path: mvn
+  args: ["-f", "git-repo/pom.xml", "-DskipTests=true", "package"]
