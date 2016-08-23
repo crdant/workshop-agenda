@@ -12,6 +12,7 @@ inputs:
 
 outputs:
 - name: jar-file
+- path: git-repo/target
 
 run:
   path: mvn
