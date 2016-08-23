@@ -11,8 +11,10 @@ inputs:
 - name: git-repo
 
 outputs:
-- name: jar-file
-- path: git-repo/target
+- name: ui-jar-file
+- path: git-repo/workshop-agenda-ui/target
+- name: service-jar-file
+- path: git-repo/workshop-agenda-service/target
 
 run:
   path: mvn
