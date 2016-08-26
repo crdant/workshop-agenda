@@ -12,7 +12,6 @@ inputs:
 
 outputs:
 - name: service-jar-file
-  path: target/workshop-agenda-service-0.0.1-SNAPSHOT.jar
 
 run:
   path: mvn
