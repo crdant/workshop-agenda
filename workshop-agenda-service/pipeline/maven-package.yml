@@ -11,7 +11,8 @@ inputs:
 - name: git-repo
 
 outputs:
-- name: service-jar-file
+- name: service-target
+  path: git-repo/workshop-agenda-service
 
 run:
   path: mvn
