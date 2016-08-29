@@ -12,7 +12,7 @@ inputs:
 
 outputs:
 - name: service-target
-  path: git-repo/workshop-agenda-service
+  path: workshop-agenda-service
 
 run:
   path: mvn
