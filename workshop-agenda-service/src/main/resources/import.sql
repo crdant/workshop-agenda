@@ -38,4 +38,4 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('circuit-breakers', 'scs', 'Spring Cloud Netflix - Circuit Breakers', '', '88-spring-cloud-netflix-circuit-breakers.pdf', 'labs/88-spring-cloud-netflix-circuit-breakers-lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('circuit-breaker-metric-aggregation', 'scs', 'Spring Cloud Netflix - Circuit Breaker Metric Aggregation', '', '89-spring-cloud-netflix-circuit-breaker-metric-aggregation.pdf', 'labs/89-spring-cloud-netflix-circuit-breaker-metric-aggregation-lab.html');
 
-insert into content (courseID, section, title, description, slideURL, labURL) values ('90-more-information', 'more', 'Course Introduction', '','90-more-information.pdf','');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('90-more-information', 'more1', 'Course Introduction', '','90-more-information.pdf','');
