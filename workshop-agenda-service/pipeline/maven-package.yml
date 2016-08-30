@@ -11,8 +11,7 @@ inputs:
 - name: git-repo
 
 outputs:
-- name: service-target
+- name: artifact-dir
 
 run:
-  path: mvn
-  args: ["-f", "git-repo/pom.xml", "-DskipTests=true", "package"]
+  path: git-repo/workshop-agenda-service/pipeline/build-artifact.sh
