@@ -12,7 +12,6 @@ inputs:
 
 outputs:
 - name: service-target
-  path: workshop-agenda-service
 
 run:
   path: mvn
