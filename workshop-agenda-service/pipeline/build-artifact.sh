@@ -3,4 +3,4 @@ set -e
 
 cd git-repo
 mvn package
-cp git-repo/workshop-agenda-service/target/*.jar ../artifact-dir/
+cp workshop-agenda-service/target/*.jar ../artifact-dir/
